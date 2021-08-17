@@ -1,0 +1,66 @@
+
+
+$black: rgb(30, 255, 0);
+$white: #fff;
+
+$base-font-sans-serif: 'Raleway', sans-serif ;
+$base-font-serif: 'Raleway', sans-serif ;
+
+$primary-font: 'Raleway', sans-serif ;
+
+// Body
+// Globals
+$body-font-family: 'Raleway', sans-serif ;
+$border-radius-root: 6px;
+$font-size-root: 14px;
+
+// Variables must come before the import
+$btn-letter-spacing: 0;
+$btn-font-weight: 400;
+$list-item-title-font-size: 0.929rem;
+$list-item-dense-title-font-size: 0.929rem;
+$list-item-dense-title-font-weight: initial;
+$fab-icon-sizes: (
+  'small': 20
+);
+$btn-sizes: (
+  'default': 41,
+  'large': 54
+);
+
+$headings: (
+  'h1': (
+    'size': 3.3125rem,
+    'line-height': 1.15em
+  ),
+  'h2': (
+    'size': 2.25rem,
+    'line-height': 1.5em
+  )
+);
+
+
+$base-text-color: $black  ;
+$base-background-color: $white ;
+$base-font-size: 14px ;
+$base-line-height: 1.8;
+$base-font-family: $primary-font ;
+
+$vertical-rhythm: ($base-line-height * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $black;
+
+// Headers
+$h1-font-size: 24px ;
+$h2-font-size: 20px !default;
+$h3-font-size: 21px;
+$h4-font-size: 18px ;
+$h5-font-size: 17px ;
+$h6-font-size: 15px ;
+
+
+
+$animation-speed: 0.3s; 

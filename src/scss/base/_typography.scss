@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik&family=Stint+Ultra+Condensed&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+h2,
+.h2,
+h3,
+.h3,
+
+h5,
+.h5,
+
+
+
+
+h2,
+.h2 {
+  font-size: $h2-font-size;
+}
+
+h3,
+.h3 {
+  font-size: $h3-font-size;
+}
+
+
+
+h5,
+.h5 {
+  font-size: $h5-font-size;
+}
+
+
+
+p {
+  margin: 0 0 1em;
+}
+

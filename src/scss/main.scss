@@ -1,0 +1,131 @@
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+@import "base/typography";
+@import "base/helpers";
+
+@import "layouts/common";
+@import "layouts/header";
+@import "layouts/footer";
+
+@import "pages/index";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik&family=Stint+Ultra+Condensed&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700&family=Lobster&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700&family=Lobster&family=Staatliches&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700&family=Lobster&family=Staatliches&family=Work+Sans:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,700;0,900;1,300&family=Lobster&family=Source+Sans+Pro:wght@700&family=Staatliches&family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700;900&family=Lobster&family=Source+Sans+Pro:wght@700&family=Staatliches&family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,300;0,700;0,900;1,300&family=Lobster&family=Source+Sans+Pro:wght@700&family=Staatliches&family=Work+Sans:ital@1&display=swap');
+
+/*@font-face {
+    font-family: WorkSans-Regular;
+    src: asset- url(/clubapp/src/fonts/WorkSans-Regular.otf)  format('embedded-opentype'); ;
+    
+  }*/
+
+.v-input {
+    color: rgb(28, 197, 209);
+    font-weight: bold;
+    font-size: 5px;
+}
+.v-label {
+    font-weight: bold;
+    color: rgb(28, 197, 209);
+}
+.v-list-item__subtitle {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.v-btn{
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Lato', sans-serif ;
+    color: rgb(28, 197, 209);
+}
+.m-16{
+    font-family: 'Raleway', sans-serif;
+ 
+   // color: rgb(28, 197, 209);
+}
+.text-h6 {
+   font-family: 'Raleway', sans-serif !important;
+   font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.v-card--reveal {
+    background-color: rgb(255, 0, 212);
+  }
+.v-list-item-title {
+    font-family: 'Raleway', sans-serif !important;
+    color: rgb(255, 29, 29);
+    
+}
+.text-h4{
+    font-family: 'Raleway', sans-serif !important;
+    color: rgb(0, 0, 0);
+    
+}
+.v-application{
+    font-family: 'Lato', sans-serif !important;
+    
+}
+.v-toolbar__title {
+    font-family: 'Raleway', sans-serif  !important ;
+    color: rgb(28, 197, 209);
+    padding-left: 38px;
+    
+}
+
+a {
+   
+      color: rgb(255, 29, 29);
+      
+    text-decoration: none;
+    transition: color $animation-speed ease;
+  
+   
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+  } 
+  div a :hover {
+    font-family: 'Lobster', cursive;
+    
+    color: rgb(255, 0, 255);
+  }
+
+  .v-application .text-h6 {
+    font-family: 'Lato', sans-serif !important;
+    
+
+  
+   // font-family: WorkSans-Regular;
+    //etter-spacing: 2px !important;
+}
+.v-application  .mt-7 {
+    font-size: 25px !important;
+    margin-top: 4px !important;
+}
+.v-application .text-h4{
+    font-family: 'Staatliches', cursive  !important;
+}
+
+.v-application a {
+    cursor: grabbing;
+}
+.v-application .blue--text  {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold;
+}
